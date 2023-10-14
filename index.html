@@ -485,7 +485,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -544,6 +544,23 @@
               class="modal-comment"
               placeholder="Text input"
             ></textarea>
+          </div>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              name="modal-checkbox"
+              id="modal-checkbox"
+              class="checkbox-input visually-hidden"
+            />
+            <label for="modal-checkbox" class="modal-checkbox-text"
+              ><span>
+                <svg class="modal-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
           </div>
           <button type="submit" class="modal-send-btn">Send</button>
         </form>
