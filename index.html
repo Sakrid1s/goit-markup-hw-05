@@ -471,23 +471,28 @@
         </div>
         <div class="footer-subscribe-form">
           <p class="footer-subscribe-text">Subscribe</p>
-          <div class="footer-form-btn">
-            <form class="footer-form">
-              <input type="email" class="footer-input" placeholder="E-mail" />
-            </form>
+          <form class="footer-form">
+            <label for="footer-email" class="footer-label"></label>
+            <input
+              type="email"
+              name="footer-email"
+              class="footer-input"
+              id="footer-email"
+              placeholder="E-mail"
+            />
             <button type="submit" class="footer-subscribe-btn">
               Subscribe
               <svg class="footer-btn-icon" width="24" height="20">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -548,11 +553,12 @@
           <div class="modal-field">
             <input
               type="checkbox"
-              name="modal-checkbox"
-              id="modal-checkbox"
+              name="modal-privacy"
+              id="modal-privacy"
+              value="true"
               class="checkbox-input visually-hidden"
             />
-            <label for="modal-checkbox" class="modal-checkbox-text"
+            <label for="modal-privacy" class="modal-checkbox-text"
               ><span>
                 <svg class="modal-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
