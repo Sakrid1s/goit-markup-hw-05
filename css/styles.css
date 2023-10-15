@@ -688,7 +688,7 @@ address {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   border: none;
 }
 
@@ -732,7 +732,7 @@ address {
 
 .modal-field {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input-wrap {
@@ -811,6 +811,10 @@ address {
 .checkbox-input {
 }
 
+.modal-field-checkbox {
+  margin-bottom: 24px;
+}
+
 .modal-checkbox-text {
   color: #8e8f99;
   font-size: 12px;
@@ -818,7 +822,6 @@ address {
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
 }
 
 .modal-checkbox-text a {
