@@ -829,8 +829,8 @@ address {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  text-align: center; */
 }
 
 .modal-checkbox-label a {
@@ -839,22 +839,7 @@ address {
   text-decoration-line: underline;
 }
 
-/* .modal-checkbox-label span {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  margin-right: 8px;
-  fill: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-.modal-checkbox-text {
+.modal-checkbox-label span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
